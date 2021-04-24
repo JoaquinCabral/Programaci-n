@@ -1,0 +1,97 @@
+#Ejercicio 1
+# base = int(input("ingrese el valor de los lados"))
+# altura = int(input("ingrese el valor de la altura"))
+
+# area = base * altura
+
+# print("el area del rectangulo es", area)
+#Este ejercicio esta bien
+
+#Ejercicio 2
+# valor_producto = float(input("ingrese el valor de la máquina"))
+# valor_dolar = float(input("ingrese el valor del dolar"))
+
+# print("el valor de la maquina en pesos es", valor_producto * valor_dolar)
+#Este ejercicio esta bien
+
+#Ejercicio 3
+# año_actual = 2021
+# año_nacimiento = int(input("ingrese el año de nacimiento"))
+
+# print("la edad de la persona es", año_actual - año_nacimiento)
+#Este ejercicio esta bien
+
+#Ejercicio 4
+# valor_base = int(input("ingrese el valor de la base del triangulo"))
+# valor_altura = float(input("ingrese el valor de la altura del triangulo"))
+
+# area = valor_base * valor_altura
+# print("el area de un triangulo", area, "cm")
+#Este ejercicio esta bien
+
+#Ejercicio 5
+# horas_estacionadas = int(input("ingrese las horas estacionadas"))
+# precio_por_hora = int(input("ingrese el costo por hora aparcado"))
+
+# costo_total = horas_estacionadas * precio_por_hora
+# print("el cliente debe pagar", costo_total)
+#Este ejercicio esta bien
+
+# #Ejercicio 6
+# cantidad_m2 = int(input("ingrese la cantidad de m2 a pintar"))
+# costo_litro_pintura = float(input("costo del litro de pintura"))
+# # Tambien puede ser int en vez de float
+
+# total_pintura = cantidad_m2 * costo_litro_pintura
+# mano_obra = total_pintura * 0.45
+
+# total = total_pintura + mano_obra
+
+# print("el monto total es", total)
+#Este ejercicio esta bien
+
+#Ejercicio 7
+# from math import sqrt
+# #Desde el modulo matematica importar sqrt(raíz cuadrada)
+# lado_a = int(input("ingrese los metros del lado a"))
+# lado_b = int(input("ingrese los metros del lado b"))
+
+# diagonal = sqrt(lado_a ** 2 + lado_b ** 2)
+# print("la distancia en diagonal es", diagonal)
+#Este ejercicio esta bien
+
+#Ejercicio 8
+# cantidad_de_tiros = int(input("ingrese la cantidad de tiros"))
+# cantidad_aciertos = int(input("ingrese la cantidad de tiros que acerto"))
+
+# print("la eficiencia de x jugador fue del", cantidad_aciertos * 100 / cantidad_de_tiros, "%")
+#Este ejercicio esta bien
+
+#Ejercicio 9
+# costo_por_kilometro = int(input("ingresar el costo por kilometro"))
+# kilometros_recorridos = int(input("ingresar los kilometros recorridos"))
+
+# precio_final = costo_por_kilometro * kilometros_recorridos
+# print("cuando se baja x cliente tiene que pagar", precio_final)
+#Este ejercicio esta bien
+
+#Ejercicio 10
+# kilometros = int(input("ingrese los kilometros que tiene el camino"))
+# velocidad = int(input("ingrese la velocidad del ciclista"))
+
+# total = kilometros * velocidad
+# print("la persona demora en ir en bicicleta de un lugar a otro", total, "km por hora")
+#Esta bien
+
+#Ejercicio 11
+minutos = int(input("ingrese la duracion de la llamada en minutos"))
+costo_minutos= int(input("ingrese costo del minuto de llamada"))
+
+total_llamada = minutos * costo_minutos
+adicional = 5 * total_llamada / 100
+
+total = total_llamada + adicional
+print(total)
+#Esta bien
+
+#Ejercicio 12
